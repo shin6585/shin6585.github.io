@@ -4,15 +4,119 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>service title</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      nav {
+        text-align: right;
+      }
+    
+      nav ul li {
+        display: inline-block;
+        margin: 0 20px;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: orange;
+        margin: 0;
+      }
+      
+       footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+      
+      .copyright {
+        padding: 20px 0;
+        font-size: 12px;
+        color: #666;
+      }
+      
+      #maincreative {
+        background-image: url("comics_photo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-bottom:600px;
+      }
+      
+      #explain {
+        padding: 10px;
+      }
+      
+      .logo {
+        font-size: 20px;
+        padding: 15px;
+        width: 200px;
+      }
+      
+      .t {
+        top: 50%;
+        margin-top: -82px;
+        color: #FFF;
+      }
+      
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#">service title</a>
+        </div>
+        <nav>
+          <div class="container-fluid">
+            <ul class="nav navbar-right">
+              <li><a href="#">サービス紹介</a></li>
+              <li><a href="#">運営者</a></li>
+              <li><a href="#">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div id="maincreative">
+      <div class="container t">
+        <h1>サービス説明</h1>
+      </div>
+    </div>
+    <div id="explain">
+      <p>ざっくりとした説明</p>
+    </div>
+    <div id="機能説明">
+      <div id="機能1">
+        <img class="icon" src="アイコン"></img>
+        <p>ここに説明文</p>
+      </div>
+      <div id="機能2">
+        <img class="icon" src="アイコン"></img>
+        <p>ここに説明文</p>
+      </div>
+      <div id="機能3">
+        <img class="icon" src="アイコン"></img>
+        <p>ここに説明文</p>
+      </div>
+    </div>
+    <div id="サインアップ">
+      ここにサインアップボタン
+    </div>
+    <div id="自己紹介">
+      <img src="ここに画像"></img>
+      <p></p>
+    </div>
+    <footer>
+      <div class="copyright">会社名とか</div>
+    </footer>
   </body>
 </html>
