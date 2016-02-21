@@ -1,122 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>service title</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <style>
-      nav {
-        text-align: right;
-      }
-    
-      nav ul li {
-        display: inline-block;
-        margin: 0 20px;
-      }
-      
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      
-      header {
-        background-color: orange;
-        margin: 0;
-      }
-      
-       footer {
-        border-top: 1px solid#e7e7e7;
-        background-color: #f8f8f8;
-        text-align: center;
-      }
-      
-      .copyright {
-        padding: 20px 0;
-        font-size: 12px;
-        color: #666;
-      }
-      
-      #maincreative {
-        background-image: url("comics_photo.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        padding-bottom:600px;
-      }
-      
-      #explain {
-        padding: 10px;
-      }
-      
-      .logo {
-        font-size: 20px;
-        padding: 15px;
-        width: 200px;
-      }
-      
-      .t {
-        top: 50%;
-        margin-top: -82px;
-        color: #FFF;
-      }
-      
-    </style>
+    <meta charset="utf-8" />
+    <title>進　祐二郎 | About</title>
+    <link rel="stylesheet" href="about.css" />
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="logo">
-          <a href="#">service title</a>
-        </div>
-        <nav>
-          <div class="container-fluid">
-            <ul class="nav navbar-right">
-              <li><a href="#">サービス紹介</a></li>
-              <li><a href="#">運営者</a></li>
-              <li><a href="#">お問い合わせ</a></li>
-            </ul>
-          </div>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="selected">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="profile.jpg" alt="" />
+        <h1>進　祐二郎</h1>
       </div>
     </header>
-    <div id="maincreative">
-      <div class="container t">
-        <h1>サービス説明</h1>
-      </div>
+    <div class="container">
+      <section>
+        <h2>About</h2>
+        <h3>自己紹介</h3>
+        <p>進　祐二郎 (Yujiro Shin)</p>
+        <p>東京都出身。現在決済事業を展開する会社に務める23歳。</p>
+        <p>最近は<span class="red">Ruby on Rails</span> を学んでいてアプリケーションを作っています。</p>
+        <p>私のポートフォリオを見て気になった方は、<a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
+        <h3>リンク</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/yujiro.shin" target="_blank">Facebook</a></li>
+          <li><a href="https://github.com/shin6585/">Github</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2016 Yujiro Shin.</p>
+      </footer>
     </div>
-    <div id="explain">
-      <p>ざっくりとした説明</p>
-    </div>
-    <div id="機能説明">
-      <div id="機能1">
-        <img class="icon" src="アイコン"></img>
-        <p>ここに説明文</p>
-      </div>
-      <div id="機能2">
-        <img class="icon" src="アイコン"></img>
-        <p>ここに説明文</p>
-      </div>
-      <div id="機能3">
-        <img class="icon" src="アイコン"></img>
-        <p>ここに説明文</p>
-      </div>
-    </div>
-    <div id="サインアップ">
-      ここにサインアップボタン
-    </div>
-    <div id="自己紹介">
-      <img src="ここに画像"></img>
-      <p></p>
-    </div>
-    <footer>
-      <div class="copyright">会社名とか</div>
-    </footer>
   </body>
 </html>
