@@ -39,7 +39,7 @@ nav ul li a.selected {
 }
 
 header {
-    background-image : url('cover_photo.jpg');
+    background-image : url("cover_photo.jpg");
     background-position : center center;
     background-size : cover;
     background-repeat : no-repeat;
@@ -92,6 +92,6 @@ span.red {
 }
 
 section {
-    background-color: #9eff99;
+    background-color: rgba(184,230,192, 0.55);
 }
 
